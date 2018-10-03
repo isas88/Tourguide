@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/beach_name"
+            style="@style/Txt_Heading"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/beach_desc"
+            style="@style/Txt_style_std"
+            android:textSize="@dimen/text_size"
+            android:gravity="start"
+            />
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/beach_image1"
+                style="@style/wrap_content"
+                android:padding="@dimen/padding_small" />
+
+            <ImageView
+                android:id="@+id/beach_image2"
+                style="@style/wrap_content"
+                android:padding="@dimen/padding_small" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/beach_address"
+            style="@style/Txt_style_std"
+            android:gravity="left"
+            android:textSize="@dimen/small_text_size" />
+
+</LinearLayout>
